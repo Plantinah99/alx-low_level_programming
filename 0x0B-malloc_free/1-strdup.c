@@ -11,7 +11,7 @@ char *_strdup(char *str);
  * It returns NULL if insufficient memory was available
  */
 
-char *_strdup(char *str)
+char *_strdup(char *str);
 {
 	char *copy;
 	int i, len = 0;
